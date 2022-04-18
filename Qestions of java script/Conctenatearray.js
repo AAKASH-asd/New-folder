@@ -6,5 +6,11 @@ let a,b;
 a=[1,2,3];
 b=[100,2,1,10];
 a.push(b[0]);
-a.push(b[3])
+a.push(b[3]);
 console.log(a);
+a.pop();
+console.log(a);
+b.unshift(a[2]);
+console.log(b);
+b.shift();
+console.log(b);
